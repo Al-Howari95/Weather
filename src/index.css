@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-#imageee {
+#image {
     border-radius: 50%;
     width: 40px;
     height: 40px;
   }
 
-  #Footer_3 {
+  #Footer_1 {
     margin-right: 180px;
     margin-bottom: -32px;
   }
@@ -36,4 +36,15 @@
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+#Card_1 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+#Card_1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #90cdf4 ;
 }

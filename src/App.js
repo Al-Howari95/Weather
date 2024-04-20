@@ -10,7 +10,7 @@ import Hero from './components/Hero.jsx';
 
 
 
-const API_KEY = 'b0fb4fb0a8f44532b1a201548241804'; // Replace with your actual API key
+const API_KEY = 'b0fb4fb0a8f44532b1a201548241804';
 
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -37,19 +37,18 @@ const App = () => {
 
   return (
     <div>
-      <Navbar/>
-      <Hero/>
+      <Navbar />
+      <Hero />
       <h1 className="text-4xl font-bold text-center text-blue-600 mb-8">Weather App</h1>
       <SearchBar onSearch={handleSearch} />
-      {/* {error && <div>{error}</div>} */}
       {weatherData && (
         <div>
           <WeatherCard weatherData={weatherData} />
           <Forecast location={weatherData.location} />
         </div>
       )}
-      <Button/>
-      <Footer/>
+      <Button />
+      <Footer />
     </div>
   );
 };

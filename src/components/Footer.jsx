@@ -7,32 +7,31 @@ const Footer = () => {
   return (
     <div className={``}>
       <>
-        {/* component */}
-        <footer id="Footer_0"
+          <footer
           className="bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100"
         >
           <div className="max-w-screen-xl px-4 py-6 mx-auto sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-              <div id="Footer_1">
+              <div>
                 <div>
                   <span
-                   id="Footer_3"
+id="Footer_1"
                     className="flex justify-center mr-[120px] mb-[-31px] font-semibold text-xl tracking-tight text-blue-700"
                   >
-                   WeatherWave
+                    WeatherWave
                   </span>
                 </div>
                 <img
-                id="Footer_4"
 
-                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu47n15LqU6_faeiISIhNcMJSOUf_TfvgN4wt5_ZTilOxkT4eAp26B83ewPmNPxUf209I&usqp=CAU"
+
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu47n15LqU6_faeiISIhNcMJSOUf_TfvgN4wt5_ZTilOxkT4eAp26B83ewPmNPxUf209I&usqp=CAU"
                   className="mr-5 h-6 sm:h-9 rounded-full"
                   alt="logo"
                 />
 
                 <p className="max-w-xs mt-4 text-l text-gray-600">
-                The best site for cases
-<br></br> Weather in Jordan.
+                  The best site for cases
+                  <br></br> Weather in Jordan.
                 </p>
                 <div className="flex mt-8 space-x-6 text-blue-700">
                   <a
@@ -93,39 +92,39 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-              {/* <div id="iss" className="ml-40"> */}
+
               <div>
-                <nav id="gap" className="flex flex-warp mt-4  text-l text-blue-700 mb-15">
+                <nav className="flex flex-warp mt-4  text-l text-blue-700 mb-15">
                   <div className="flex flex-col md:w-1/3 md:mb-0 md:mx-40">
-                    <a className="hover:opacity-75 mb-4" to="/">
+                    <a className="hover:opacity-75 mb-4" href="#">
                       Home
                     </a>
                     <a className="hover:opacity-75 mb-4" href="#">
-                      Services
+                      Weather
                     </a>
                     <a className="hover:opacity-75" href="#">
-                      About
+                      News
                     </a>
                   </div>
-                  <div id="gap_2" className="flex flex-col md:w-1/3 md:mb-0 md:ml-60 ">
+                  <div className="flex flex-col md:w-1/3 md:mb-0 md:ml-60 ">
                     <a className="hover:opacity-75 mb-4" href="#">
-                      Contact
+                      Climate
                     </a>
                     <a className="hover:opacity-75 mb-4" href="#">
-                      WhyUs
+                      About us
                     </a>
                     <a className="hover:opacity-75" href="#">
-                      FAQS
+                      environment
                     </a>
                   </div>
                 </nav>
               </div>
-              {/* </div> */}
+
             </div>
             <br></br>
-            <div id="hr"></div>
+            <div></div>
             <p className="mt-8 text-base text-blue-700 text-center ">
-              © Copyright 2023 CleanWave
+              © Copyright 2024 WeatherWave
             </p>
           </div>
         </footer>

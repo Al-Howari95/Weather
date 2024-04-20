@@ -1,16 +1,29 @@
 import React, { useState } from 'react';
+import Swal from "sweetalert2";
 
 const SearchBar = ({ onSearch }) => {
     const [query, setQuery] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        onSearch(query);
-        setQuery('');
+        if (!query) {
+            return; // Do nothing if the input field is empty
+        }
+        const result = await onSearch(query);
+        if (!result) {
+            Swal.fire({
+                title: 'Error!',
+                text: 'Location not found. Please try again.',
+                icon: 'error',
+                confirmButtonText: 'OK'
+            });
+        } else {
+            setQuery('');
+        }
     };
 
     return (
-<form onSubmit={handleSubmit} className="mt-4 flex justify-center items-center mb-12">
+        <form onSubmit={handleSubmit} className="mt-4 flex justify-center items-center mb-12">
             <input
                 type="text"
                 value={query}

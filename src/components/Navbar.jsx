@@ -7,26 +7,20 @@ const Navbar = () => {
       <nav className="flex items-center justify-between flex-wrap bg-white py-4 lg:px-12 shadow border-solid border-t-2 border-blue-700 bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100">
         <div className="flex justify-between lg:w-auto w-full lg:border-b-0 pl-6 pr-2 border-solid border-b-2 border-gray-300 pb-5 lg:pb-0">
           <div className="flex items-center flex-shrink-0 text-gray-800 mr-16">
-
-
-          <img
-              id="imageee"
+            <img
+              id="image"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu47n15LqU6_faeiISIhNcMJSOUf_TfvgN4wt5_ZTilOxkT4eAp26B83ewPmNPxUf209I&usqp=CAU"
 
               alt="Your Logo"
               className="h-8 w-auto"
             />
-            {/* <img src={cleanwavenn} className="mr-3 h-10" alt="CraftVine Logo" /> */}
-
             <div>
-            <span id="Cleaning" className="text-blue-700 font-semibold text-3xl tracking-tight ml-2">WeatherWave</span>
-
-              
+              <span className="text-blue-700 font-semibold text-3xl tracking-tight ml-2">WeatherWave</span>
             </div>
           </div>
           <div className="block lg:hidden">
             <button
-              id="nav"
+
               className="flex items-center px-3 py-2 border-2 rounded text-blue-700 border-blue-700 hover:text-blue-700 hover:border-blue-700"
             >
               <svg
@@ -41,12 +35,12 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          
+
           className="menu w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-8"
         >
           <div
-          id="madia" className="text-md font-bold text-blue-700 lg:flex-grow mr-48">
-          
+            id="madia" className="text-md font-bold text-blue-700 lg:flex-grow mr-48">
+
             <a
               href="#"
               className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
@@ -54,25 +48,25 @@ const Navbar = () => {
               Home
             </a>
             <a
-             href="#"
+              href="#"
               className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
             >
-              Weather 
+              Weather
             </a>
             <a
-             href="#"
+              href="#"
               className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
             >
-              Weather News 
+              Weather News
             </a>
             <a
-             href="#"
+              href="#"
               className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
             >
               Climate and environment
             </a>
             <a
-             href="#"
+              href="#"
               className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
             >
               About us
