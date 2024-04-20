@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={``}>
       <>
-          <footer
+        <footer
           className="bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100"
         >
           <div className="max-w-screen-xl px-4 py-6 mx-auto sm:px-6 lg:px-8">
@@ -15,7 +15,7 @@ const Footer = () => {
               <div>
                 <div>
                   <span
-id="Footer_1"
+                    id="Footer_1"
                     className="flex justify-center mr-[120px] mb-[-31px] font-semibold text-xl tracking-tight text-blue-700"
                   >
                     WeatherWave
@@ -31,12 +31,12 @@ id="Footer_1"
 
                 <p className="max-w-xs mt-4 text-l text-gray-600">
                   The best site for cases
-                  <br></br> Weather in Jordan.
+                  <br></br> Weather in The World.
                 </p>
                 <div className="flex mt-8 space-x-6 text-blue-700">
                   <a
                     className="hover:opacity-75"
-                    href="https://www.facebook.com/profile.php?id=100088450350482&mibextid=2JQ9oc "
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -56,7 +56,7 @@ id="Footer_1"
                   </a>
                   <a
                     className="hover:opacity-75"
-                    href="https://www.instagram.com/howari_95/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -76,7 +76,7 @@ id="Footer_1"
                   </a>
                   <a
                     className="hover:opacity-75"
-                    href="https://twitter.com/InklyReads85433"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                   >
