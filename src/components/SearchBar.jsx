@@ -10,7 +10,7 @@ const SearchBar = ({ onSearch }) => {
             return; // Do nothing if the input field is empty
         }
         const result = await onSearch(query);
-        if (!result) {
+        if (result) {
             Swal.fire({
                 title: 'Error!',
                 text: 'Location not found. Please try again.',
