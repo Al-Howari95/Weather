@@ -1,5 +1,7 @@
 import React from 'react';
 
+// HeroSection Components 
+
 const HeroSection = () => {
   return (
     <section id="Howari" className="bg-white dark:bg-gray-900">

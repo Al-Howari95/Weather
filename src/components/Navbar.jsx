@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Navbar Components 
+
 const Navbar = () => {
   return (
     <div className="sticky top-0 w-full z-50">
